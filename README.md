@@ -7,7 +7,7 @@ How to use
 ----------
 
 ### Generate a project
-
+##Note Make sure to have quotes if using Windows Powershell.  ie.  mvn archetype:generate    "-DarchetypeGroupId=net.ltgt.gwt.archetypes"    "-DarchetypeVersion=LATEST"    "-DarchetypeArtifactId=modular-webapp"  See - https://stackoverflow.com/questions/17385864/why-does-not-archetypegenerate-with-parameters-work-for-me
     mvn archetype:generate \
        -DarchetypeGroupId=net.ltgt.gwt.archetypes \
        -DarchetypeVersion=LATEST \
